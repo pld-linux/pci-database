@@ -1,4 +1,5 @@
 Summary:	PCI hardware identification data
+Summary(pl):	Dane s³u¿±ce do identyfikacji urz±dzeñ PCI
 Name:		pci-database
 Version:	0.0.1
 Release:	0.1
@@ -12,6 +13,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 pci-database contains various PCI hardware identification data, such
 as scsi, net and ide databases.
+
+%description -l pl
+pci-database zawiera ró¿ne dane s³u¿±ce do identyfikacji urz±dzeñ PCI,
+takich jak bazy scsi, net czy ide.
 
 %prep
 %setup -q
