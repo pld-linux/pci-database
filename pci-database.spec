@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/System
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	5c32039fc44912fc3e4c3f59d82b3076
-BuildRequires:  awk
+BuildRequires:	awk
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
