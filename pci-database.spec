@@ -12,17 +12,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 pci-database contains various PCI hardware identification data, such
-as scsi, net and ide databases.
+as SCSI, network and IDE device databases.
 
 %description -l pl
 pci-database zawiera ró¿ne dane s³u¿±ce do identyfikacji urz±dzeñ PCI,
-takich jak bazy scsi, net czy ide.
+w tym bazy danych urz±dzeñ SCSI, sieciowych i IDE.
 
 %prep
 %setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
