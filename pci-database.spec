@@ -12,11 +12,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 pci-database contains various PCI hardware identification data, such
-as SCSI, network and IDE device databases.
+as scsi.pci, net.pci and ide.pci databases for SCSI, network and IDE
+devices.
 
 %description -l pl
 pci-database zawiera ró¿ne dane s³u¿±ce do identyfikacji urz±dzeñ PCI,
-w tym bazy danych urz±dzeñ SCSI, sieciowych i IDE.
+w tym bazy danych scsi.pci, net.pci i ide.pci dla urz±dzeñ SCSI,
+sieciowych i IDE.
 
 %prep
 %setup -q
