@@ -1,12 +1,12 @@
 Summary:	PCI hardware identification data
 Summary(pl):	Dane s³u¿±ce do identyfikacji urz±dzeñ PCI
 Name:		pci-database
-Version:	0.0.2
+Version:	0.1
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	5205f7bed31b52471e9168af16e2169c
+# Source0-md5:	352607432a5126eddbd2d382caa75a5c
 BuildRequires:  awk
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -41,3 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README TODO
 %dir %{_datadir}/pci-database
 %{_datadir}/pci-database/*
+%attr(755,root,root) %{_bindir}/pcidev
