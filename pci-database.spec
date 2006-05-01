@@ -3,6 +3,7 @@ Summary(pl):	Dane s³u¿±ce do identyfikacji urz±dzeñ PCI
 Name:		pci-database
 Version:	0.13
 Release:	1
+Epoch:		1
 License:	GPL
 Group:		Applications/System
 Source0:	http://rescuecd.pld-linux.org/pci-database/%{name}-%{version}.tar.bz2
