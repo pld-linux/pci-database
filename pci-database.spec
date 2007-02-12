@@ -1,5 +1,5 @@
 Summary:	PCI hardware identification data
-Summary(pl):	Dane s³u¿±ce do identyfikacji urz±dzeñ PCI
+Summary(pl.UTF-8):   Dane sÅ‚uÅ¼Ä…ce do identyfikacji urzÄ…dzeÅ„ PCI
 Name:		pci-database
 Version:	0.15
 Release:	1
@@ -17,9 +17,9 @@ pci-database contains various PCI hardware identification data, such
 as scsi.pci, net.pci and ide.pci databases for SCSI, network and IDE
 devices.
 
-%description -l pl
-pci-database zawiera ró¿ne dane s³u¿±ce do identyfikacji urz±dzeñ PCI,
-w tym bazy danych scsi.pci, net.pci i ide.pci dla urz±dzeñ SCSI,
+%description -l pl.UTF-8
+pci-database zawiera rÃ³Å¼ne dane sÅ‚uÅ¼Ä…ce do identyfikacji urzÄ…dzeÅ„ PCI,
+w tym bazy danych scsi.pci, net.pci i ide.pci dla urzÄ…dzeÅ„ SCSI,
 sieciowych i IDE.
 
 %prep
