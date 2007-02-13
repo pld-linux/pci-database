@@ -1,5 +1,5 @@
 Summary:	PCI hardware identification data
-Summary(pl.UTF-8):   Dane służące do identyfikacji urządzeń PCI
+Summary(pl.UTF-8):	Dane służące do identyfikacji urządzeń PCI
 Name:		pci-database
 Version:	0.15
 Release:	1
