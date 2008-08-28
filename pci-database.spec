@@ -1,13 +1,13 @@
 Summary:	PCI hardware identification data
 Summary(pl.UTF-8):	Dane służące do identyfikacji urządzeń PCI
 Name:		pci-database
-Version:	0.17
+Version:	0.18
 Release:	1
 Epoch:		1
 License:	GPL
 Group:		Applications/System
 Source0:	http://rescuecd.pld-linux.org/pci-database/%{name}-%{version}.tar.bz2
-# Source0-md5:	56a15a19af37e761f2c921ca76d81022
+# Source0-md5:	cc1b1df3d0f812cd29ee152ec9c95b10
 BuildRequires:	awk
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
